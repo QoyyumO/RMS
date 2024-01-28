@@ -53,27 +53,27 @@ public:
 int main() {
     AuthenticationSystem authSystem;
 
-    char startQuizChoice;
+    char viewResultChoice;
     cout << "Welcome to Result Management System!\n";
     while (true) {
         cout << "Do you want to view results? (Y/N): ";
-        cin >> startQuizChoice;
+        cin >> viewResultChoice;
 
-        startQuizChoice = tolower(startQuizChoice);
+        viewResultChoice = tolower(viewResultChoice);
 
-        if (startQuizChoice == 'y' || startQuizChoice == 'n') {
+        if (viewResultChoice == 'y' || viewResultChoice == 'n') {
             break;
         } else {
             cout << "Invalid choice. Please enter 'Y' or 'N'.\n";
         }
     }
 
-    if (startQuizChoice == 'n') {
+    if viewResultChoice == 'n') {
         cout << "Aborted. Goodbye!!\n";
         return 0;  // End the application
     }
 
-    if (startQuizChoice == 'y') {
+    if (viewResultChoice == 'y') {
         // Get username and password from the user
         string username, password;
         cout << "Enter your username: ";
