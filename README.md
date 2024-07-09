@@ -45,11 +45,11 @@ After successful authentication, the user is presented with the following option
 - Exit: Exit the application.
   
 3. **Storing and Updating Records**
-Update Student Scores
+ a. **Update Student Scores**
 - Enter the matriculation number of the student and the new scores for MTH201, CSC201, INS204, and CSC211.
 - The GPA is recalculated based on the updated scores.
 - Records are saved to students_records.txt.
-- Store Individual Record
+  b. **Store Individual Record**
 - Enter the student's details including name, unique matriculation number, and scores for MTH201, CSC201, INS204, and CSC211.
 - GPA is calculated based on the entered scores.
 - The new student record is added and saved to students_records.txt.
@@ -57,10 +57,17 @@ Update Student Scores
 users.txt: Format for each line: username,password
 students_records.txt: Format for each line: name,matricNo,MTH201,CSC201,INS204,CSC211,gpa
 
-## Users.txt
+**users.txt:** Format for each line: `username,password`
+     ```
+     admin,adminpass
+     user1,userpass1
+     ```
 
-
-## Students_records.txt
+ **students_records.txt:** Format for each line: `name,matricNo,MTH201,CSC201,INS204,CSC211,gpa`
+     ```
+     Alice,2021001,85,90,75,80,3.55
+     Bob,2021002,80,85,70,75,3.36
+     ```
 
 
 ## Notes
