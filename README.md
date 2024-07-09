@@ -48,7 +48,7 @@ After successful authentication, the user is presented with the following option
  a. **Update Student Scores**
 - Enter the matriculation number of the student and the new scores for MTH201, CSC201, INS204, and CSC211.
 - The GPA is recalculated based on the updated scores.
-- Records are saved to students_records.txt.
+- Records are saved to students_records.txt.<br>
   b. **Store Individual Record**<br>
 - Enter the student's details including name, unique matriculation number, and scores for MTH201, CSC201, INS204, and CSC211.
 - GPA is calculated based on the entered scores.
