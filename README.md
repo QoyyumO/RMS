@@ -58,16 +58,16 @@ users.txt: Format for each line: username,password
 students_records.txt: Format for each line: name,matricNo,MTH201,CSC201,INS204,CSC211,gpa
 
 **users.txt:** Format for each line: `username,password`
-     ``` bash
+     ```sh
      admin,adminpass
      user1,userpass1
-     ```
+     
 
  **students_records.txt:** Format for each line: `name,matricNo,MTH201,CSC201,INS204,CSC211,gpa`
-     ```bash
+    ```sh
      Alice,2021001,85,90,75,80,3.55
      Bob,2021002,80,85,70,75,3.36
-     ```
+     
 
 
 ## Notes
