@@ -31,6 +31,7 @@ This is a console-based Result Management System implemented in C++. The system 
    ```sh
    ./result_management
 ## Usage
+
 1. **User Authentication**
 Upon starting the application, the user is prompted to enter their username and password. Authentication is done against the credentials stored in users.txt.
 
@@ -48,10 +49,28 @@ Update Student Scores
 - Enter the matriculation number of the student and the new scores for MTH201, CSC201, INS204, and CSC211.
 - The GPA is recalculated based on the updated scores.
 - Records are saved to students_records.txt.
-Store Individual Record
-Enter the student's details including name, unique matriculation number, and scores for MTH201, CSC201, INS204, and CSC211.
-GPA is calculated based on the entered scores.
-The new student record is added and saved to students_records.txt.
-4. Data Files
+- Store Individual Record
+- Enter the student's details including name, unique matriculation number, and scores for MTH201, CSC201, INS204, and CSC211.
+- GPA is calculated based on the entered scores.
+- The new student record is added and saved to students_records.txt.
+4. **Data Files**
 users.txt: Format for each line: username,password
 students_records.txt: Format for each line: name,matricNo,MTH201,CSC201,INS204,CSC211,gpa
+
+## Users.txt
+
+
+## Students_records.txt
+
+
+## Notes
+- The system ensures that each student has a unique matriculation number.
+- Records are sorted by matriculation number before being saved to students_records.txt.
+- Make sure the data files (users.txt and students_records.txt) are in the same directory as the executable.
+- Future Improvements
+- Add more user-friendly error handling and input validation.
+- Implement a graphical user interface (GUI) for better user experience.
+- Add functionalities to delete student records and update user credentials.
+
+## License
+This project is licensed under the MIT License 
