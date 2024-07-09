@@ -1,7 +1,2 @@
-qoyyum,123
-joshua,123
-rahman,123
-basit,123
-blessing,123
-dagogo,123
-nonso,123
+admin,adminpass
+user1,userpass1
